@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".CoroutinesExamples.Coroutines3.CoroutinesActivity3">
+
+        <Button
+            android:id="@+id/btnStep1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Step 1"/>
+
+        <Button
+            android:id="@+id/btnStep2Callbacks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Step 2 Callbacks " />
+
+        <Button
+            android:id="@+id/btnStep3Handler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Step 3 Handler" />
+
+        <Button
+            android:id="@+id/btnStep4Looper"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Step 4 Looper" />
+
+        <Button
+            android:id="@+id/btnStep5RunOnUiThread"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Step 5 RunOnUiThread" />
+
+        <Button
+            android:id="@+id/btnStep6Coroutines"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Step 6 Coroutines" />
+
+        <Button
+            android:id="@+id/btnStep7StateMachine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Step 7 State Machine" />
+
+        <Button
+            android:id="@+id/btnStep8CoroutinesJob"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Step 8 Coroutines Job" />
+
+        <Button
+            android:id="@+id/btnStep9AsyncDeferred"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Step 9 Async Deferred" />
+
+        <Button
+            android:id="@+id/btnStep10AsyncDeferredSimple"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Step 10 Async Deferred Simple" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".CoroutinesExamples.Coroutines2.CoroutinesActivity2">
+
+
+        <Button
+            android:id="@+id/btnMainThread"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Click me (main Thread)"/>
+
+        <Button
+            android:id="@+id/btnBackgroundThread"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Click me (Background Thread)" />
+
+        <Button
+            android:id="@+id/btnToast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Click me (Toast)" />
+
+        <Button
+            android:id="@+id/btnThreadTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Click me (Thread TextView)"/>
+
+        <TextView
+            android:id="@+id/tvCount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textSize="38sp"
+            android:text="0" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black" />
+        <Button
+            android:id="@+id/btnCoroutine1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Click me (Coroutine Example 1)"/>
+
+        <Button
+            android:id="@+id/btnCoroutine2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Click me (Coroutine Example 2)" />
+
+        <Button
+            android:id="@+id/btnCoroutine3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Click me (Coroutine Example 3)" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black" />
+
+        <Button
+            android:id="@+id/btnIoMainThread"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Click me (Io Main Threads)" />
+
+        <TextView
+            android:id="@+id/tvMianIO"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:textSize="38sp" />
+
+        <Button
+            android:id="@+id/btnGlobalScope"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Click me (GlobalScope)" />
+
+        <Button
+            android:id="@+id/btnRunBlocking"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Click me (runBlocking{})" />
+
+        <Button
+            android:id="@+id/btnRunBlockingLaunch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Click me (runBlocking{} .launch{})" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black" />
+
+        <Button
+            android:id="@+id/btnJobExample1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Click me (Job Example 1 .join())" />
+
+
+        <Button
+            android:id="@+id/btnJobExample2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Click me (Job Example 2)" />
+
+        <Button
+            android:id="@+id/btnJobExample3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Click me (Job Example 3 .cancel())" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black" />
+
+        <Button
+            android:id="@+id/btnAwait1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Click me (Await Example 1)" />
+
+
+        <Button
+            android:id="@+id/btnAwait2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Click me (Await Example 2)" />
+
+        <Button
+            android:id="@+id/btnAwait3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Click me (Await Example 3)" />
+
+
+        <Button
+            android:id="@+id/btnAsync"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Click me (Async Example)" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/black" />
+
+        <Button
+            android:id="@+id/btnLifecycleScope1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Click me (Async LifecycleScope 1)" />
+
+        <Button
+            android:id="@+id/btnLifecycleScope2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Click me (Async LifecycleScope 2)" />
+
+    </LinearLayout>
+
+</ScrollView>

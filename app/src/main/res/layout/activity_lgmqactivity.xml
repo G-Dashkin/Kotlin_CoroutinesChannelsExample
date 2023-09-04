@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".LooperHandlerMessageQueue.LGMQActivity">
+
+    <Button
+        android:id="@+id/button_start_thread"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Start Thread" />
+
+    <Button
+        android:id="@+id/button_start_handler"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Start Handler" />
+
+    <Button
+        android:id="@+id/button_stop"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Stop" />
+
+    <Button
+        android:id="@+id/button_task_a"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Task A" />
+
+    <Button
+        android:id="@+id/button_task_b"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Task B" />
+
+    <Button
+        android:id="@+id/button_task_c"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Task C" />
+
+    <Button
+        android:id="@+id/button_task_d"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Task D" />
+
+</LinearLayout>
